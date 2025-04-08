@@ -1,0 +1,11 @@
+*.log
+*.sw[nop]
+*~
+.project
+.settings
+.vscode
+.nyc_output
+TAGS
+coverage
+node_modules
+reports
