@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/vc-barcodes-context",
-  "version": "0.0.1-0",
+  "version": "1.0.0",
   "type": "module",
   "description": "VC Barcodes Context (Bedrock module)",
   "license": "SEE LICENSE IN LICENSE.md",
