@@ -1,0 +1,39 @@
+{
+  "name": "@bedrock/vc-barcodes-context",
+  "version": "0.0.1-0",
+  "type": "module",
+  "description": "VC Barcodes Context (Bedrock module)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .cjs,.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-vc-barcodes-context.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-vc-barcodes-context/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-vc-barcodes-context",
+  "dependencies": {
+    "@digitalbazaar/vc-barcodes-context": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@bedrock/jsonld-document-loader": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-digitalbazaar": "^5.2.0",
+    "eslint-plugin-jsdoc": "^50.6.9",
+    "eslint-plugin-unicorn": "^56.0.1"
+  }
+}
